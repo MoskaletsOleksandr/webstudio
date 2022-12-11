@@ -1,0 +1,29 @@
+.logo {
+  display: block;
+
+  font-family: 'Raleway', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+}
+
+.header__logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo--end-black {
+  color: var(--logo--end-black);
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+.logo--end-white {
+  color: var(--logo--end-white);
+}
