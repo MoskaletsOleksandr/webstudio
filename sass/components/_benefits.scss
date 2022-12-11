@@ -3,18 +3,21 @@
 
 .benefits__list {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
 .benefits__item {
-    flex-basis: calc((100% - 90px) / 4);
+    width: 100%;
+    // flex-basis: calc((100% - 90px) / 4);
 }
 
 .benefits__item-icon-wrap {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 270px;
+    width: 100%;
+    // width: 270px;
     height: 120px;
     margin-bottom: 30px;
 
@@ -29,6 +32,10 @@
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-color);
+
+    @media screen and (max-width:480px) {
+        text-align: center;
+    }
 }
 
 .benefits__item-text {

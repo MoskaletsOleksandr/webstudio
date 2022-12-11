@@ -10,17 +10,25 @@
     line-height: calc(16 / 14);
     text-transform: uppercase;
     color: var(--title-text-bright-color);
+
+    @media screen and (max-width:480px) {
+        text-align: center;
+    }
 }
 
 .subscription__form {
     display: flex;
+@media screen and (max-width:480px) {
+        flex-wrap: wrap;
+        justify-content: center;
+}
 }
 
 .subscription__form-input {
     width: 358px;
     height: 50px;
     padding: 15px 16px;
-    margin-right: 12px;
+    // margin-right: 12px;
 
     background-color: inherit;
     outline: transparent;
@@ -30,6 +38,11 @@
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+
+    @media screen and (max-width:480px) {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
