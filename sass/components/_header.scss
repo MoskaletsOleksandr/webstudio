@@ -4,8 +4,6 @@
     line-height: 1.14;
 
     border-bottom: 1px solid #ececec;
-
-
 }
 
 .header__container {
@@ -13,13 +11,14 @@
     align-items: center;
 }
 
-.navigation-wrap{
+.menu{
+    display: none;
     @media screen and (max-width:480px) {
         display: none;
     }
 }
 
-.header__navigation {
+.menu__navigation {
     margin-right: auto;
 }
 
@@ -31,7 +30,7 @@
 }
 
 .navigation__list-link,
-.navigation__contacts-link {
+.menu__contacts-link {
     display: flex;
     padding: 32px 0;
 
@@ -68,18 +67,22 @@
         }
 }
 
-.navigation__contacts {
+.menu__contacts {
     display: flex;
     gap: 50px;
 }
 
-.navigation__contacts-link {
+.menu__contacts-link {
     gap: 10px;
     align-items: center;
 
     color: var(--contact-link-color);
 }
 
-.navigation__contacts-icon {
+.menu__contacts-icon {
     fill: currentColor;
 }
+
+
+// _____mobile_______
+
