@@ -31,6 +31,14 @@
     min-height: 40px;
 
     background: transparent;
+
+    &:hover, &:focus {
+        color: #2196F3;
+    }
+}
+
+.menu-toggle__icon{
+    fill: currentColor;
 }
 
 .menu-toggle--open{
@@ -67,6 +75,10 @@
     letter-spacing: 0.02em;
     
     color: #212121;
+
+    &:hover, &:focus{
+        color: #2196F3;
+    }
 }
 
 
@@ -135,6 +147,3 @@
     color: #2196F3;
 }
 
-.menu-toggle__icon{
-    background: ;
-}

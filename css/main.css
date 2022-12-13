@@ -224,6 +224,13 @@ input:-webkit-autofill {
   min-height: 40px;
   background: transparent;
 }
+.menu-toggle:hover, .menu-toggle:focus {
+  color: #2196F3;
+}
+
+.menu-toggle__icon {
+  fill: currentColor;
+}
 
 @media screen and (min-width: 481px) {
   .menu-toggle--open {
@@ -252,6 +259,9 @@ input:-webkit-autofill {
   line-height: 1.175;
   letter-spacing: 0.02em;
   color: #212121;
+}
+.mobile-navigation__list-link:hover, .mobile-navigation__list-link:focus {
+  color: #2196F3;
 }
 
 .mobile-menu__contacts {
