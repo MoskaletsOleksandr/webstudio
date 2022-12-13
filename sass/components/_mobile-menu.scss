@@ -1,0 +1,140 @@
+.mobile-menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    padding: 48px 40px;
+
+    background-color: #fff;
+
+    transform: translateX(100%);
+
+    &.is-open {
+            transform: translateX(0);
+        }
+}
+
+.js-menu-container {}
+
+.menu-toggle {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 40px;
+    min-height: 40px;
+
+    background: transparent;
+}
+
+.menu-toggle--open{
+    @media screen and (min-width: 481px) {
+        display: none;
+    }
+}
+
+.mobile-menu {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.mobile-menu__navigation {}
+
+.mobile-navigation {}
+
+.mobile-navigation__list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.mobile-navigation__list-link {
+    display: block;
+
+    font-weight: 500;
+    font-size: 40px;
+    line-height: calc(47 / 40);
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+}
+
+
+.mobile-menu__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    margin-bottom: 64px;
+}
+
+.mobile-menu__contacts-item{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    letter-spacing: 0.02em;
+
+    color: #757575;
+
+    &:first-child {
+        font-size: 34px;
+        line-height: calc(40 / 34);
+        letter-spacing: 0.02em;
+
+        color: #2196F3;
+    }
+}
+
+.mobile-menu__contacts-link {
+    display: block;
+
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    
+    color: inherit;
+}
+
+.mobile-menu__socials {
+    display: flex;
+}
+
+.mobile-menu__socials-item {
+    padding: 0 10px;
+
+    &:first-child {
+        padding-left: 0;
+    }
+
+    &:last-child {
+        padding-right: 0;
+    }
+    
+    &:not(:last-child){
+    border-right: 1px solid #212121;
+    }
+}
+
+.mobile-menu__socials-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: calc(22 / 18);
+    letter-spacing: 0.02em;
+    
+    color: #2196F3;
+}
+
+.menu-toggle__icon{
+    background: ;
+}

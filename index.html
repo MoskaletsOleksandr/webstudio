@@ -27,7 +27,11 @@
         <a href="./index.html" lang="en" class="logo header__logo link"
           >Web<span class="logo--end-black">Studio</span></a
         >
-        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <button
+          class="menu-toggle menu-toggle--open js-open-menu button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg width="24px" height="16px">
             <use href="./images/symbol-defs.svg#icon-menu-burger"></use>
           </svg>
@@ -65,32 +69,34 @@
             </li>
           </ul>
         </div>
+      </div>
 
+      <div class="mobile-menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu button">
+          <svg width="18px" height="18px">
+            <use href="./images/symbol-defs.svg#icon-menu-close"></use>
+          </svg>
+        </button>
         <div class="mobile-menu">
-          <button class="menu-toggle js-close-menu">
-            <svg width="18px" height="18px">
-              <use href="./images/symbol-defs.svg#close-icon"></use>
-            </svg>
-          </button>
-          <div class="mobile-menu-container">
-            <nav class="mobile-menu__navigation mobile-navigation">
-              <ul class="mobile-navigation__list">
-                <li>
-                  <a class="mobile-navigation__list-link link" href="./index.html">Студія</a>
-                </li>
-                <li>
-                  <a class="mobile-navigation__list-link link" href="./portfolio.html">Портфоліо</a>
-                </li>
-                <li><a class="mobile-navigation__list-link link" href="#">Контакти</a></li>
-              </ul>
-            </nav>
-            <ul class="mobile-menu__contacts">
+          <nav class="mobile-menu__navigation mobile-navigation">
+            <ul class="mobile-navigation__list">
               <li>
+                <a class="mobile-navigation__list-link link" href="./index.html">Студія</a>
+              </li>
+              <li>
+                <a class="mobile-navigation__list-link link" href="./portfolio.html">Портфоліо</a>
+              </li>
+              <li><a class="mobile-navigation__list-link link" href="#">Контакти</a></li>
+            </ul>
+          </nav>
+          <div class="mobile-menu-bottom">
+            <ul class="mobile-menu__contacts">
+              <li class="mobile-menu__contacts-item">
                 <a class="mobile-menu__contacts-link link" href="tel:+380961111111">
                   +38 096 111 11 11</a
                 >
               </li>
-              <li>
+              <li class="mobile-menu__contacts-item">
                 <a class="mobile-menu__contacts-link link" href="mailto:info@devstudio.com">
                   info@devstudio.com</a
                 >
