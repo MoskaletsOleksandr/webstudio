@@ -1194,12 +1194,12 @@ input:-webkit-autofill {
   .footer-contacts-join-wrap {
     flex-direction: row;
     gap: 165px;
+    align-items: baseline;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer-contacts-join-wrap {
     gap: 94px;
-    align-items: baseline;
     margin-right: auto;
   }
 }
