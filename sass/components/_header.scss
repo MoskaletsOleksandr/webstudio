@@ -21,12 +21,10 @@
 }
 
 .menu__navigation {
-    // display: block;
-    // margin-right: auto;
     margin-right: 78px;
 
     @media screen and (min-width: 1200px) {
-        margin-right: 300px;
+        margin-right: 298px;
     }
 }
 
@@ -109,6 +107,10 @@
 .menu__contacts-icon {
     margin-right: 8px;
     fill: currentColor;
+
+    @media screen and (min-width: 1200px) {
+        margin-right: 10px;
+    }
 }
 
 .menu__contacts-icon--letter{

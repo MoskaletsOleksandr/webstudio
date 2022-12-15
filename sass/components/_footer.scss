@@ -13,10 +13,7 @@
 
     @media screen and (min-width: 1200px) {
         flex-direction: row;
-    }
-
-    @media screen and (min-width: 1200px) {
-        // gap: 94px;
+        align-items: baseline;
     }
 }
 
@@ -31,7 +28,9 @@
     }
 
     @media screen and (min-width: 1200px) {
-        gap: 70px;
+        gap: 94px;
+        align-items: baseline;
+        margin-right: auto;
     }
 }
 
@@ -56,5 +55,4 @@
 /* .footer__join{} */
 
 .footer__subscription {
-    margin-left: auto;
 }
