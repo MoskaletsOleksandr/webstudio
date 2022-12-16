@@ -20,8 +20,6 @@
     }
 }
 
-.js-menu-container {}
-
 .menu-toggle {
     position: absolute;
     top: 10px;
@@ -62,9 +60,9 @@
     overflow: auto;
 }
 
-.mobile-menu__navigation {}
+// .mobile-menu__navigation {}
 
-.mobile-navigation {}
+// .mobile-navigation {}
 
 .mobile-navigation__list {
     display: flex;
@@ -169,9 +167,5 @@
     @media screen and (max-width: 440px) {
         font-size: 14px;
     }
-
-    // @media screen and (max-width: 380px) {
-    //     font-size: 12px;
-    // }
 }
 
