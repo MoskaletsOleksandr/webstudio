@@ -1,2 +1,2 @@
-# goit-markup-hw-08
-Repository for homework number 7
+# Webstudio
+Repository for webstudio website
